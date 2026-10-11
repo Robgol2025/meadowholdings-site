@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Meadow Holdings</title>
+<meta name="description" content="Meadow Holdings provides regulatory, logistics and customer-support services for the personal importation of prescription medicines by patients in Brazil.">
+<link rel="icon" type="image/webp" href="assets/meadow-symbol.webp">
+<link rel="apple-touch-icon" href="assets/meadow-symbol.webp">
+<meta property="og:title" content="Meadow Holdings">
+<meta property="og:description" content="Regulatory, logistics and customer-support services for the personal importation of prescription medicines.">
+<meta property="og:image" content="https://www.meadowholdings.com/assets/meadow-logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap">
+<style>
+  :root{
+    --slate:#4A5B59;      /* letras do logo e círculo do símbolo */
+    --slate-deep:#2F3D3B;
+    --leaf:#5B9A2F;       /* arco verde do logo */
+    --teal:#0E4A41;       /* fundo da imagem */
+    --teal-light:#1E6B4F;
+    --paper:#F6F8F6;
+    --ink:#1E2928;
+    --muted:#667876;
+    --line:#DDE4E1;
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{margin:0;background:var(--paper);color:var(--ink);font-family:"Manrope",ui-sans-serif,system-ui,sans-serif;line-height:1.6;-webkit-font-smoothing:antialiased}
+  a{color:var(--teal-light)}
+  .wrap{max-width:1080px;margin:0 auto;padding:0 24px}
+  header{background:#fff;border-bottom:1px solid var(--line)}
+  header .wrap{display:flex;align-items:center;justify-content:space-between;gap:24px;padding:18px 24px}
+  header img{height:44px;width:auto}
+  header nav{display:flex;gap:26px;font-size:15px;font-weight:600}
+  header nav a{color:var(--slate);text-decoration:none}
+  header nav a:hover{color:var(--leaf)}
+  .hero{position:relative;color:#fff;background:var(--teal) url("assets/meadow-bg.jpg") center/cover no-repeat;isolation:isolate}
+  .hero::before{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(14,74,65,.72),rgba(14,74,65,.86));z-index:-1}
+  .hero .wrap{padding:112px 24px 104px;max-width:860px}
+  .eyebrow{font-size:13px;letter-spacing:.16em;text-transform:uppercase;font-weight:700;color:#BFE39B}
+  h1{margin:14px 0 18px;font-size:clamp(34px,5vw,54px);line-height:1.1;font-weight:700;letter-spacing:-.01em}
+  .hero p{margin:0;font-size:19px;max-width:640px;color:rgba(255,255,255,.88)}
+  .hero .cta{display:inline-block;margin-top:30px;background:var(--leaf);color:#fff;text-decoration:none;font-weight:700;padding:14px 24px;border-radius:10px}
+  .hero .cta:hover{background:#4F8A28}
+  section{padding:84px 0}
+  section + section{border-top:1px solid var(--line)}
+  h2{margin:0 0 10px;font-size:30px;line-height:1.2;font-weight:700;color:var(--slate-deep)}
+  .lead{margin:0 0 40px;color:var(--muted);font-size:17px;max-width:680px}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:22px}
+  .card{background:#fff;border:1px solid var(--line);border-radius:14px;padding:26px}
+  .card .n{display:inline-flex;width:38px;height:38px;border-radius:999px;background:var(--slate);color:#fff;align-items:center;justify-content:center;font-weight:700;margin-bottom:14px}
+  .card h3{margin:0 0 8px;font-size:18px;color:var(--slate-deep)}
+  .card p{margin:0;color:var(--muted);font-size:15px}
+  .about{display:grid;grid-template-columns:1.1fr .9fr;gap:40px;align-items:center}
+  .about img{width:100%;max-width:260px;display:block;margin:0 auto}
+  .about p{color:var(--muted);font-size:17px}
+  .contact{background:var(--slate-deep);color:#fff}
+  .contact h2{color:#fff}
+  .contact .lead{color:rgba(255,255,255,.78)}
+  .contact a{color:#BFE39B;text-decoration:none;font-weight:600}
+  .contact dl{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:22px;margin:0}
+  .contact dt{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:rgba(255,255,255,.6);margin-bottom:6px}
+  .contact dd{margin:0;font-size:17px}
+  footer{padding:26px 0;font-size:13px;color:var(--muted)}
+  footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
+  @media (max-width:720px){header nav{display:none}.about{grid-template-columns:1fr}.hero .wrap{padding:80px 24px 72px}}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <a href="#top" aria-label="Meadow Holdings"><img src="assets/meadow-logo.png" alt="Meadow Holdings"></a>
+    <nav aria-label="Main">
+      <a href="#services">Services</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero" id="top">
+  <div class="wrap">
+    <span class="eyebrow">Meadow Holdings</span>
+    <h1>Regulatory, logistics and support services for personal medicine importation.</h1>
+    <p>We help patients in Brazil import prescription medicines for their own use, handling the paperwork, the purchase from licensed manufacturers abroad, shipping, invoicing and customer support, in compliance with Brazilian regulations.</p>
+    <a class="cta" href="#contact">Get in touch</a>
+  </div>
+</section>
+
+<section id="services">
+  <div class="wrap">
+    <h2>What we do</h2>
+    <p class="lead">Importing a prescription medicine for personal use involves several regulated steps. Meadow takes care of them on the patient's behalf, from the first document to the delivery.</p>
+    <div class="grid">
+      <div class="card"><span class="n">1</span><h3>Regulatory paperwork</h3><p>Preparation and filing of the documents and authorizations required by Brazilian authorities, in the patient's own name.</p></div>
+      <div class="card"><span class="n">2</span><h3>Sourcing</h3><p>Purchase of the prescribed product from licensed manufacturers abroad, with batch documentation.</p></div>
+      <div class="card"><span class="n">3</span><h3>Logistics and customs</h3><p>International shipping with the documentation customs requires, and tracking until delivery.</p></div>
+      <div class="card"><span class="n">4</span><h3>Invoicing and records</h3><p>Invoices in the patient's name and a complete record of every document, kept available to the patient.</p></div>
+      <div class="card"><span class="n">5</span><h3>Customer support</h3><p>Answers about the process, document collection and order status, by e-mail and messaging, for patients who contact us.</p></div>
+      <div class="card"><span class="n">6</span><h3>Partner platforms</h3><p>We operate the import and support services behind patient-facing platforms run by our partners.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="about">
+  <div class="wrap about">
+    <div>
+      <h2>About Meadow</h2>
+      <p>Meadow Holdings is a United States company that provides intermediation services for the personal importation of prescription medicines by patients in Brazil. Every import we handle starts with a medical prescription and follows the applicable health and customs regulations.</p>
+      <p>We do not sell medicines and we do not provide medical advice. Our role is operational: documents, purchase, shipping, invoicing and support.</p>
+    </div>
+    <img src="assets/meadow-symbol.webp" alt="" aria-hidden="true">
+  </div>
+</section>
+
+<section class="contact" id="contact">
+  <div class="wrap">
+    <h2>Contact</h2>
+    <p class="lead">For questions about an import in progress, or about working with Meadow, write to us.</p>
+    <dl>
+      <div><dt>E-mail</dt><dd><a href="mailto:contact@meadowholdings.com">contact@meadowholdings.com</a></dd></div>
+      <div><dt>Company</dt><dd>Meadow Holdings LLC<br>[ADDRESS LINE 1]<br>[CITY, STATE ZIP], USA</dd></div>
+      <div><dt>Hours</dt><dd>Monday to Friday, business hours (ET)</dd></div>
+    </dl>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <span>© 2026 Meadow Holdings. All rights reserved.</span>
+    <span>Privacy: we only use the data you send us to answer your request.</span>
+  </div>
+</footer>
+</body>
+</html>
